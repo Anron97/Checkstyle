@@ -10,7 +10,7 @@ P.S  У кого более старые версии IDEA необходимо 
 3. Добавляем новую конфигурации (знак "+" справа от таблицы Configuration File). Вводим Description(на свой вкус).
    Радиобаттон Use a local Checkstyle file и выбираем путь до checkstyle-idea.xml. 
    В следующем окне попросит указать значение переменной checkstyleDirectory. В колонку Value необходимо ввести АБСОЛЮТНЫЙ путь до папки 
-   в которой лежит файл checkstyle-idea.xml (Например /home/ITRANSITION.CORP/a.shakarov/Software/Openbank/logistic-repository/gradle/plugins/checkstyle)
+   в которой лежит файл supressions.xml (Например /home/ITRANSITION.CORP/a.shakarov/Software/Openbank/logistic-repository/gradle/plugins/checkstyle)
    
 4. Жмем next и должно быть сообщение об успешной операции (если будет лог ошибок, значит плохо)
 5. В нижней панели появится таб CheckStyle. Открываем и в активной конфигурации выбираем созданую ранее конфигурацию. Пользуемся
