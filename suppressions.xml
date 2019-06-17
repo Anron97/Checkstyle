@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE suppressions PUBLIC
+        "-//Puppy Crawl//DTD Suppressions 1.1//EN"
+        "http://www.puppycrawl.com/dtds/suppressions_1_1.dtd">
+
+<suppressions>
+    <!--Spring application-->
+    <suppress files="LogisticRepositoryApplication.java" checks="HideUtilityClassConstructor" />
+    <suppress files="DeliveryServiceImpl.java" checks="ParameterNumber" />
+    <suppress files="DeliveryService.java" checks="ParameterNumber" />
+    <!-- Значения по умолчанию для конфига -->
+    <suppress files="OptimizeRouteConfig.java" checks="MagicNumber" />
+</suppressions>
